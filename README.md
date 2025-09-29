@@ -170,17 +170,21 @@ src/
 3. **Environment Setup**
    Create a `.env` file in the root directory:
    ```env
-   VITE_APPWRITE_ENDPOINT=your_appwrite_endpoint
-   VITE_APPWRITE_PROJECT_ID=your_project_id
-   VITE_FIREBASE_API_KEY=your_firebase_api_key
-   VITE_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
-   VITE_FIREBASE_PROJECT_ID=your_firebase_project_id
-   VITE_FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket
-   VITE_FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id
-   VITE_FIREBASE_APP_ID=your_firebase_app_id
-   VITE_EMAILJS_SERVICE_ID=your_emailjs_service_id
-   VITE_EMAILJS_TEMPLATE_ID=your_emailjs_template_id
-   VITE_EMAILJS_PUBLIC_KEY=your_emailjs_public_key
+   VITE_API_BASEURL=""
+   VITE_FIREBASE_API_KEY="AIzaSyBADOtbSWXZJ6QnXg0TYAqMJJ9HqwkP0sw"
+   VITE_FIREBASE_AUTH_DOMAIN="integrated-college-system.firebaseapp.com"
+   VITE_FIREBASE_PROJECT_ID="integrated-college-system"
+   VITE_FIREBASE_STORAGE_BUCKET="integrated-college-system.firebasestorage.app"
+   VITE_FIREBASE_MESSAGING_ID="559175139891"
+   VITE_FIREBASE_APP_ID="1:559175139891:web:ed68399e2f47615aa95946"
+   VITE_FIREBASE_MEASUREMENT_ID="G-VHCZLJ1JT7"
+   VITE_APPWRITE_PROJECT_ID="6894f040000248a78f07"
+   VITE_APPWRITE_PROJECT_NAME="ICS"
+   VITE_APPWRITE_ENDPOINT="https://nyc.cloud.appwrite.io/v1"
+   VITE_APPWRITE_BUCKET_ID="6894f208002ce1ab60b5"
+   VITE_PUBLIC_EMAILJS_PUBLIC_KEY="Niai4D9fH82Pfo4mU"
+   VITE_PUBLIC_EMAILJS_SERVICE_ID="service_wai5c3r"
+   VITE_PUBLIC_EMAILJS_TEMPLATE_ID="template_kkiz0zf"
    ```
 
    **Note**: The Appwrite storage bucket ID is hardcoded as `6894f208002ce1ab60b5` in the application.
